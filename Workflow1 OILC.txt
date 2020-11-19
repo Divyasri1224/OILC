@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Workflow PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Workflow created="1604571626417" explicitTransitions="true"  monitored="true" name="WorkFlow1 OILC " type="">
+  <Step icon="Start" name="Start" posX="20" posY="20">
+    <Transition to="Hellow Ojas Workflow"/>
+  </Step>
+  <Step icon="Stop" name="Stop" posX="912" posY="150"/>
+  <Step action="script:System.out.prinltn(&quot;Hellow Ojas&quot;);" icon="Default" monitored="true" name="Hellow Ojas Workflow" posX="339" posY="41" resultVariable="Res">
+    <Transition to="Stop"/>
+  </Step>
+</Workflow>
